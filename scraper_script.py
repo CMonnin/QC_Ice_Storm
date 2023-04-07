@@ -1,13 +1,11 @@
-from bs4 import BeautifulSoup as bs
-import requests
 import pandas as pd
-import time, threading
+import time
 import csv
 
 
 url = 'https://poweroutages.hydroquebec.com/poweroutages/service-interruption-report/index.html'
-page = requests.get(url)
-soup = bs(page.content, 'html.parser')
+
+
 
 
 # def scraper():
