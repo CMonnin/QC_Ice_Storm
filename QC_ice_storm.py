@@ -33,7 +33,7 @@ regions = ['Abitibi-Témiscamingue',
  'Across Québec']
 
 
-df = pd.read_csv()
+df = pd.read_csv('https://raw.githubusercontent.com/CMonnin/QC_Ice_Storm/master/data/wrangled_data.csv?token=GHSAT0AAAAAAB76XZNVLMVYJ3UER45CWGUKZBZ7NKA')
 
 app = dash.Dash(__name__,external_stylesheets=[dbc.themes.LUX])
 server = app.server
