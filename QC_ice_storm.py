@@ -46,7 +46,7 @@ app = dash.Dash(__name__,external_stylesheets=[dbc.themes.LUX])
 server = app.server
 app.layout = dbc.Container([
     dbc.Row([
-        html.H1('QC ice storm April 2023'),
+        html.H1('QC_ice_storm_April_2023'),
         html.Div(children=[
             dcc.Link('Data scraped from Hyrdo Quebec power outages. ',href='https://poweroutages.hydroquebec.com/poweroutages/service-interruption-report/index.html',target='_blank'),
         ]),
