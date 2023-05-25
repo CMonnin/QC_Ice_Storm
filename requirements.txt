@@ -25,7 +25,7 @@ docopt==0.6.2
 executing==1.2.0
 fastjsonschema==2.16.3
 filelock==3.11.0
-Flask==2.2.3
+Flask==2.2.5
 fonttools==4.39.3
 gunicorn==20.1.0
 identify==2.5.22
